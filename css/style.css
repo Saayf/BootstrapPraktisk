@@ -1,0 +1,146 @@
+/* General */
+
+body
+{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+/* Section(s) */
+
+section .header-section
+{
+    display: flex;
+    align-items: center;
+}
+
+section .header-section .header-section-content
+{
+    width: 100%;
+}
+
+section .form-section
+{
+    display: flex;
+    align-items: center;
+}
+
+section .form-section .form-section-content
+{
+    width: 100%;
+}
+
+section .footer-section
+{
+    display: flex;
+    align-items: center;
+}
+
+section .footer-section .footer-section-content
+{
+    width: 100%;
+}
+
+/* Font(s) & Font-Settings */
+
+.font-saira {font-family: 'Saira Extra Condensed', sans-serif;}
+
+.font-mulish {font-family: 'Mulish', sans-serif;}
+
+.font-size-sm {font-size: 18px;}
+
+.font-size-medium {font-size: 24px;}
+
+.font-size-big {font-size: 48px;}
+
+.font-size-large {font-size: 78px;}
+
+.font-select-disable 
+{
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -html-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+/* Image Settings */
+
+.img-icon 
+{
+    max-width: 250px;
+    width: 250px;
+    max-height: 250px;
+    height: 250px;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -html-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+.img-circle {border-radius: 50%;}
+.img-border {border: 4px solid #4c2e50;}
+
+.img-filter-dark {filter: brightness(50%);}
+
+/* Backgrounds */
+
+.bg-lime {background-color:#3C6E71 !important;}
+
+/* Social Media */
+
+.social-media
+{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #284B63;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.social-media:hover {transition: 0.3s; background-color: #457aaa;}
+
+/* Custom Icon(s) */
+
+.custom-icon
+{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    background-color: #627597;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+/* Misc */
+
+.carousel-control-next-icon, .carousel-control-prev-icon {background-color: black !important;}
+
+/* Articulation */
+
+.subheading 
+{
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 576px) 
+{
+    .img-icon {display: none;}
+    .social-media {height: 2.5rem; width: 2.5rem;}
+    .custom-icon {height: 2.5rem; width: 2.5rem;}
+    .navbar-brand {font-size: 24px;}
+    .carousel-caption .font-size-big {font-size: 24px;}
+}
